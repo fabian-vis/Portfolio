@@ -1,29 +1,59 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Fabian Vis">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-    <link href="CSS/style.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-    </header>
-    <main>
-        <div class="carousel">
-            <div class="item red slide-in" id="item1"><h1>Item 1</h1></div>
-            <div class="item green slide-in" id="item2"><h1>Item 2</h1></div>
-            <div class="item yellow slide-in" id="item3"><h1>Item 3</h1></div>
-            <div class="item red slide-in" id="item4"><h1>Item 4</h1></div>
-            <div class="controls">
-                <a href="#item1" class="btn">•</a>
-                <a href="#item2" class="btn">•</a>
-                <a href="#item3" class="btn">•</a>
-                <a href="#item4" class="btn">•</a>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="Fabian Vis">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio</title>
+      <link href="CSS/style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div class="navbar">
+            <a class="logo" href="#"> Fabian Vis</a>
+            <ul class="nav">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#work">My Work</a></li>
+               <li><a href="#CV">CV</a></li>
+            </ul>
+         </div>
+      </header>
+      <main>
+         <section class="banner-area" id="home">
+             <div class="tekstintro">
+                <h1>Fabian Vis</h1>
+                <p>Visual Designer</p>
             </div>
-        </div>
-          
-    </main>
-</body>
+         </section>
+         <section class="work-area" id="work">
+            <div class="text-part">
+               <h1>My Work</h1>
+            </div>
+            <div class="werkbundel">
+                <div class="werk1">
+                    <img src="foto/Project1.png" alt="foto van apple producten"/>
+                    <h1>Project 1 </h1>
+				    <p>Dit was project 1 blablablablalbal</p>
+
+                </div>
+                <div class="werk1">
+                    <img src="images/featured2.jpg" alt="foto van apple producten"/>
+                    <h1>Project 1 </h1>
+				    <p>Dit was project 1 blablablablalbal</p>
+
+                </div>
+                <div class="werk1">
+                    <img src="images/featured2.jpg" alt="foto van apple producten"/>
+                    <h1>Project 1 </h1>
+				    <p>Dit was project 1 blablablablalbal</p>
+
+                </div>
+            </div>
+        
+         </section>
+         <script src="scripts/script.js"></script>
+      </main>
+   </body>
 </html>
