@@ -10,10 +10,7 @@ h1{
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;             
 }
-p{
-    font-size: 24px;
-    line-height: 50px;
-}
+
 
 .fotovanmezelf {
     display: flex;
@@ -96,14 +93,54 @@ a:hover{
 }
 .banner-area p {
     font-family: 'Montserrat', sans-serif;
+    padding: 0 1em 0 1em;
 }
 .tekstintro {
-    height: 500px;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
 .typewriting {
     margin-top: 2em;
 }
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills img {
+    width: 100px;
+    height: 100px;
+}
+
+#more 
+{display: none;}
+
+
+#myBtn {
+    font-family: 'Audiowide', cursive;
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+#myBtn:hover {
+    color: #131212 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
 
 .work-area {
     display: flex;
@@ -136,6 +173,7 @@ a:hover{
 .werk1 p{
     margin: 0;
     font-size: 1em;   
+    line-height: 2em;
 }
 
 .werk1 img {
@@ -213,7 +251,9 @@ a:hover{
         font-weight: bold;
         font-size: 2em;
     }
-
+    .banner-area p {
+        padding: 0 5em 0 5em;
+    }
     
 }
 
@@ -224,4 +264,7 @@ a:hover{
         padding: 2em;
     }
 
+    .banner-area p {
+        padding: 0 10em 0 10em;
+    }
 }
