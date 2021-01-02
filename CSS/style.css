@@ -14,14 +14,29 @@ p{
     font-size: 24px;
     line-height: 50px;
 }
+
+.fotovanmezelf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotovanmezelf img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+
+}
 .navbar{
     position: fixed;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #D4D7DE;
+    background-color:rgb(211,211,211,0.5);
     width: 100%;
     height: 70px;
     z-index: 1;
@@ -75,10 +90,19 @@ a:hover{
 
 .banner-area h1 {
     margin: 0;
-}
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
 
+}
+.banner-area p {
+    font-family: 'Montserrat', sans-serif;
+}
 .tekstintro {
     height: 500px;
+}
+
+.typewriting {
+    margin-top: 2em;
 }
 
 .work-area {
@@ -117,6 +141,7 @@ a:hover{
 .werk1 img {
     width: 20em;
     height: 20em;
+    object-fit: cover;
 }
 .text-part{
     width: 100%;
@@ -154,6 +179,10 @@ a:hover{
 
 @media screen and (min-width: 736px) {
 
+    .fotovanmezelf {
+        display: none;
+    }
+
     .werkbundel {
         grid-template-columns: repeat( 1, minmax(17em, 1fr) );
         padding: 2em;
@@ -165,7 +194,7 @@ a:hover{
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        background-color: #D4D7DE;
+        background-color: rgb(211,211,211,0.5);
         width: 100%;
         height: 70px;
         z-index: 1;
@@ -184,6 +213,8 @@ a:hover{
         font-weight: bold;
         font-size: 2em;
     }
+
+    
 }
 
 @media screen and (min-width: 1068px) { 
