@@ -55,6 +55,8 @@ var TxtRotate = function(el, toRotate, period) {
     document.body.appendChild(css);
   };
 
+// read me button //
+
   function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
